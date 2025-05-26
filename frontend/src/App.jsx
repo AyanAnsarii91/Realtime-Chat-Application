@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import SignUpPage from "./pages/signUpPage.jsx";
+// import SignUpPage from "./pages/SignUpPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
@@ -38,7 +38,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={authUser ? <HomePage /> : <Navigate to="/login" />} />
-        <Route path="/signup" element={!authUser ? <SignUpPage /> : <Navigate to="/" />} />
+        {/* <Route path="/signup" element={!authUser ? <SignUpPage /> : <Navigate to="/" />} /> */}
         <Route path="/login" element={!authUser ? <LoginPage /> : <Navigate to="/" />} />
         <Route path="/settings" element={<SettingsPage />} />
         <Route path="/profile" element={authUser ? <ProfilePage /> : <Navigate to="/login" />} />
