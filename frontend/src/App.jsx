@@ -1,8 +1,4 @@
 import Navbar from "./components/Navbar";
-// import HomePage from "./pages/HomePage";
-// import LoginPage from "./pages/LoginPage";
-// import SettingsPage from "./pages/SettingsPage";
-// import ProfilePage from "./pages/ProfilePage";
 import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
