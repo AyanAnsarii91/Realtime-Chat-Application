@@ -1,14 +1,14 @@
 import Navbar from "./components/Navbar";
-import SignUpPage from "/src/pages/SignUpPage.jsx";
+import SignUpPage from "@src/pages/SignUpPage.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
 import ProfilePage from "./pages/ProfilePage.jsx";
 import SettingsPage from "./pages/SettingsPage.jsx";
+import SignUpPage from "@src/pages/SignUpPage.jsx";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useAuthStore } from "./store/useAuthStore";
 import { useThemeStore } from "./store/useThemeStore";
 import { useEffect } from "react";
-
 import { Loader } from "lucide-react";
 import { Toaster } from "react-hot-toast";
 
